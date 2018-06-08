@@ -95,6 +95,10 @@ namespace TicTacToe
             }
             else
             {
+                if(1 > index || index > 9 )
+                {
+                    return false;
+                }
                 int[] indices = new int[2];
                 indices = getIndex(index);
                 int i = indices[0];
@@ -118,6 +122,10 @@ namespace TicTacToe
             }
             else
             {
+                if (1 > index || index > 9)
+                {
+                    return false;
+                }
                 int[] indices = new int[2];
                 indices = getIndex(index);
                 int i = indices[0];
